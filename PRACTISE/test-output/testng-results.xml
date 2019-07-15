@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[login page displayed]]>
+    </line>
+    <line>
+      <![CDATA[login page displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14592" started-at="2019-07-15T04:30:01Z" finished-at="2019-07-15T04:30:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14592" started-at="2019-07-15T04:30:01Z" finished-at="2019-07-15T04:30:16Z">
+      <class name="testcase.TC1_login">
+        <test-method status="PASS" signature="browser_launch()[pri:0, instance:testcase.TC1_login@1bd9247]" name="browser_launch" is-config="true" duration-ms="1943" started-at="2019-07-15T10:00:01Z" finished-at="2019-07-15T10:00:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_launch -->
+        <test-method status="PASS" signature="loginstup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.TC1_login@1bd9247]" name="loginstup" duration-ms="11859" started-at="2019-07-15T10:00:04Z" data-provider="excellvalues" finished-at="2019-07-15T10:00:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://apps.qaplanet.in/hrm/login.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login page displayed]]>
+            </line>
+            <line>
+              <![CDATA[login page displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginstup -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:testcase.TC1_login@1bd9247]" name="browserclose" is-config="true" duration-ms="244" started-at="2019-07-15T10:00:16Z" finished-at="2019-07-15T10:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcase.TC1_login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
